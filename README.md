@@ -1,4 +1,4 @@
-# NextLEvelWeek01-Ecoleta
+# Ecoleta
 Application developed with nodeJS using typescript in the back end, ReactJS for web and react-native for mobile. In the web you should be able to create a point in the map and choose which recycling items this point can collect. In the mobile you can find places that collect items you want to recycle. This application was developed for educational purposes during the 1st NextLevelWeek.
 
 
@@ -18,15 +18,15 @@ you can check the details in how to install and start a react-native project usi
 * Create or choose a folder where you gonna clone the project.
 * Run the command `git clone https://github.com/djanlm/NextLEvelWeek01-Ecoleta.git`.
 
-#### Backend
+### Backend
 
 To run the backend, go to the *server* folder and run the command `npm run dev`. It will run on port 3333.
 In this project we use the sqlite database and we configured knexjs to connect to it. So you will need to create your own sqlite database ruuning the command: `npx knex --knexfile knexfile.ts migrate:latest`
 
-#### Web
+### Web
 To run the web application, developed using reactJS, go to the *web* folder and run `npm start`
 
-#### App 
+### App 
 To be able to run the app for cellphone, you'll need to have expo CLI installed. As mentioned before you might have to follow the react-native [getting started tutorial](https://reactnative.dev/docs/0.61/getting-started).
 
 After installing expo, go to *mobile* folder and run the command `expo start`. 
@@ -43,7 +43,7 @@ const api = axios.create({
 
 ## Preview and Usage
 
-#### Web
+### Web
 
 This is just a presentation page, click on the button to move to the main page.
 
@@ -54,7 +54,7 @@ In the main page you can register a collect point and add it to the map.
 ![main](https://github.com/djanlm/NextLEvelWeek01-Ecoleta/blob/master/main_page.png?raw=true)
 
 
-#### Mobile App
+### Mobile App
 
 In the firt page you must choose one city and one state where you want to find a collect point
 
